@@ -1,0 +1,55 @@
+.services {
+  background: var(--cream);
+}
+
+.eyebrow-amber {
+  color: var(--amber);
+}
+
+.services__head {
+  max-width: 32rem;
+}
+
+.services__title {
+  font-size: var(--step3);
+  color: var(--charcoal);
+}
+
+.services__grid {
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+  display: grid;
+  gap: 1px;
+  background: var(--line-on-light);
+  border: 1px solid var(--line-on-light);
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.service-card {
+  background: var(--cream);
+  padding: clamp(1.75rem, 3vw, 2.5rem);
+  transition: background-color 0.4s var(--ease-soft);
+}
+
+.service-card:hover {
+  background: var(--stone);
+}
+
+.service-card__icon {
+  width: 40px;
+  height: 40px;
+  color: var(--amber);
+  margin-bottom: 1.5rem;
+}
+.service-card__icon svg { width: 100%; height: 100%; }
+
+.service-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.65rem;
+  color: var(--charcoal);
+}
+
+.service-card p {
+  color: var(--charcoal-soft);
+  font-size: 0.96rem;
+  line-height: 1.6;
+}

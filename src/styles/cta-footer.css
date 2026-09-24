@@ -1,0 +1,66 @@
+.cta-band {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+.cta-band__inner h2 {
+  font-size: var(--step3);
+  max-width: 18ch;
+}
+
+.cta-band__actions {
+  margin-top: 2.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cta-band__hours {
+  font-size: 0.92rem;
+  color: rgba(248, 243, 234, 0.62);
+}
+
+.site-footer {
+  background: var(--ink-soft);
+  color: rgba(248, 243, 234, 0.82);
+  padding-top: clamp(3rem, 6vw, 4.5rem);
+  padding-bottom: 1.5rem;
+}
+
+.site-footer__inner {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding-bottom: clamp(2.5rem, 5vw, 3.5rem);
+  border-bottom: 1px solid var(--line-on-dark);
+}
+
+.site-footer__mark {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--cream);
+  margin-bottom: 0.75rem;
+}
+
+.site-footer__label {
+  font-size: 0.78rem;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+}
+
+.site-footer__col p,
+.site-footer__col a,
+.site-footer__brand p {
+  display: block;
+  font-size: 0.92rem;
+  margin-top: 0.3rem;
+}
+
+.site-footer__col a:hover { color: var(--gold-bright); }
+
+.site-footer__bottom {
+  padding-top: 1.5rem;
+  font-size: 0.78rem;
+  color: rgba(248, 243, 234, 0.45);
+}
