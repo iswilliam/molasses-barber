@@ -1,6 +1,6 @@
 # Molasses Barber & Beauty
 
-A bespoke, "airy & elevated" landing page for Molasses Barber & Beauty, built with React + Vite and a hand-rolled CSS design system (no Tailwind or component library).
+A landing page for Molasses Barber & Beauty, built with React + Vite and a hand-rolled CSS design system (no Tailwind or component library).
 
 ## Run it locally
 
@@ -25,12 +25,4 @@ Then open the local URL it prints (usually `http://localhost:5173`).
 - **Motion:** a single orchestrated fade/rise on the hero at page load; everything else responds to hover or scroll rather than animating on its own.
 - **Nav theming:** add `data-nav-theme="dark"` or `"light"` to any `<section>` and the nav will automatically match it as it scrolls past.
 
-## Before you launch
 
-- Swap the phone number if `(404) 373-1760` isn't final.
-- `src/components/Craft.jsx` has a gradient placeholder (`.craft__art`) standing in for a real photo — swap in an actual shop/barber photo and set it as a `background-image` (or an `<img>`) for the real version.
-- Reviews and hours are placeholder copy — replace with real reviews and confirmed hours before going live.
-
-## Deploy
-
-Same flow as any Vite app: push this folder to a GitHub repo, then import it on Netlify or Vercel — no special build settings needed (`npm run build` outputs to `dist/`).
